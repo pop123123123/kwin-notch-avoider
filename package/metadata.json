@@ -1,0 +1,23 @@
+{
+  "KPlugin": {
+    "Name": "Kwin/Plasma notch avoider",
+    "Description": "A KWin script to accomodate notch cuts",
+    "Icon": "preferences-system-windows",
+    "Authors": [
+      {
+        "Email": "louis.mouhat@gmail.com",
+        "Name": "Louis Mouhat"
+      }
+    ],
+    "Id": "notch",
+    "Version": "1.0",
+    "License": "MIT",
+    "ServiceTypes": [
+      "KWin/Script"
+    ],
+    "Website": "https://github.com/pop123123123/kwin-notch-avoider"
+  },
+  "X-Plasma-API": "javascript",
+  "X-Plasma-MainScript": "code/notch.js",
+  "X-KDE-ConfigModule": "kwin/effects/configs/kcm_kwin4_genericscripted"
+}
