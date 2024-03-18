@@ -128,7 +128,7 @@ workspace.clientFullScreenSet.connect((client, fullscreen) => {
 });
 
 workspace.clientMaximizeSet.connect((client, maxH, maxW) => {
-	if (!maxH || client.specialWindow || isRightScreen(client)) return;
+	if (!maxH || client.specialWindow || !isRightScreen(client)) return;
 
 	const area = workspace.clientArea(KWin.FullScreenArea, client);
 	const realNotchThickness = getRealNotchThickness(client);
