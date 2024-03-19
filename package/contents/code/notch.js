@@ -152,6 +152,8 @@ workspace.screenResized.connect((screenId) => {
 	const notchThickness = getConfigNotchThickness();
 	const realNotchThickness = Math.round(notchThickness * scale);
 	updateTaskbarThickness(realNotchThickness);
+
+	workspace.clientList().forEach(changeYPosIfNecessary);
 });
 
 updateTaskbarThickness();
