@@ -11,13 +11,23 @@ This is a KWin script that automatically resizes all windows so that they're not
 
 ## Installation
 
+You should first move the taskbar to the top of the screen for the script to work properly:
+- Right-click on the taskbar
+- Click on "Enter Edit Mode"
+- Drag the taskbar from the "Drag to move" area to the top of the screen
+- Exit the edit mode
+
+Then, you can install the script in one of the following ways:
+
 ### From KDE Store
 
-1. Go to System Settings > Window Management > KWin Scripts
+1. Download the latest release from the [releases page](https://github.com/pop123123123/kwin-notch-avoider/releases)
 
-2. Click on "Get New Scripts" and search for "Kwin/Plasma notch avoider"
+2. Go to System Settings > Window Management > KWin Scripts
 
-3. Click on "Install" and then enable it
+3. Click on "Install from file" and select the downloaded file
+
+4. To enable it, check `Kwin/Plasma notch avoider` and click "Apply".
 
 ### From Source
 
@@ -84,4 +94,4 @@ or by going to `System Settings > Window Management > KWin Scripts` and unchecki
 This issue is solved in plasma 6.1, see this issue for more information and workarounds:
 https://bugs.kde.org/show_bug.cgi?id=351175
 
-If you have any issues, please report them on the issue tracker.
+If you have any other issues, please report them on the issue tracker.
